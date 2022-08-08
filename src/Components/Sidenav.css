@@ -1,0 +1,254 @@
+.abc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.abc1 {
+  height: 35px;
+  border-radius: 12px;
+  margin-left: 130px !important;
+  width: 300px !important;
+  margin-top: 18px;
+}
+.abc2 {
+  margin-right: 20px;
+}
+.tet {
+  margin-left: 68px !important;
+  margin-right: 40px;
+  display: grid;
+  /* display: flex;
+  flex-wrap: wrap; */
+  grid-template-columns: 25% 25% 25% 25%;
+}
+.Sidenav {
+  height: 100vh;
+  background: rgba(255, 255, 255, 1);
+}
+.ant-layout-sider,
+.ant-layout-sider-dark,
+.Sidenav {
+  flex: 0 0 200px !important;
+  max-width: 70px !important;
+  min-width: 50px !important;
+  width: 200px !important;
+  position: fixed;
+}
+.Logo img {
+  width: 70px;
+  height: 70px;
+}
+.midicon {
+  margin-top: 80px;
+}
+.midicon img {
+  width: 40px;
+  height: 40px;
+}
+.ant-menu-item,
+.ant-menu-item-only-child {
+  padding-left: 10px !important;
+}
+.ant-menu-item,
+.ant-menu-item-only-child,
+.midicon3 {
+  padding-left: 10px !important;
+}
+.boticon {
+  width: 50px;
+  height: 50px;
+  margin: 60px 15px;
+}
+.boticon img {
+  margin-top: 20px;
+}
+.ant-layout-header {
+  height: 53px !important;
+  padding: 0 21px !important;
+  margin-left: 70px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  /* background: rgba(244, 249, 255) !important; */
+  background: rgb(226, 239, 255) !important;
+}
+
+.ant-layout {
+  background: rgb(226, 239, 255) !important;
+}
+.lefthead {
+  font-weight: 700;
+  font-size: 28px;
+}
+.ant-btn-primary {
+  width: 150px !important;
+  /* float: right; */
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.midhead {
+  margin-top: 20px;
+  padding-left: 100px;
+}
+.contentGrid {
+  display: grid;
+  grid-template-columns: 25% 10% 25% 25%;
+  gap: 20px !important;
+  column-gap: 0px;
+}
+
+.card1 {
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0px 0px 0.25px 0px rgb(184, 214, 249);
+  margin-right: 15px;
+}
+.card1:hover {
+  border-style: solid;
+  border-color: rgba(43, 120, 212, 1);
+  border-width: 2 rem;
+}
+
+.ant-card-body {
+  padding: 9px !important;
+}
+
+.cardImg {
+  margin: 5px 5px;
+  width: 40px;
+  height: 40px;
+  background-color: #d1dcf4;
+  border-radius: 5px;
+}
+
+.cardTitle {
+  color: #002f68;
+  font-weight: 700;
+  font-style: bold;
+}
+.cardPara {
+  font-weight: 400;
+  font-size: 12px;
+  color: #5c83b1;
+}
+
+.cardSpan {
+  font-size: 14px;
+  color: #5c83b1;
+  font-weight: 400;
+}
+
+.gutter-box {
+  padding: 8px 0;
+  background: #00a0e9;
+}
+
+.ant-row {
+  /* height: 150px !important; */
+  margin: 0 !important;
+}
+
+.site-card-border-less-wrapper {
+  display: block;
+}
+.hoverdis {
+  display: none;
+}
+.site-card-border-less-wrapper img {
+  width: 38px;
+}
+.card2btn {
+  width: 110px !important;
+  float: right;
+  margin-top: 10px !important;
+  margin-left: 5px !important;
+  margin-right: 15px !important;
+  border-radius: 8px;
+}
+.card2hp {
+  font-size: 12px;
+}
+.ant-layout-content {
+  margin: 10px;
+}
+.dltbtn {
+  margin: 10px 0px 0px 50px !important;
+  border-radius: 8px;
+}
+.ant-input-group-wrapper {
+  margin-left: 180px !important;
+}
+.ant-btn-primary {
+  margin-left: 135px;
+  border-radius: 8px;
+}
+.lefthead {
+  margin-left: 10px;
+}
+.ant-form-item {
+  height: 50px;
+}
+.cancelbtn {
+  height: 35px !important;
+  margin-top: 90px;
+  border-radius: 5px;
+  margin-left: 20px;
+  width: 100px !important;
+}
+.savebtn {
+  margin-top: 90px;
+  height: 35px !important;
+  margin-left: 260px !important;
+  width: 100px !important;
+  font-weight: 600;
+}
+.ant-modal-content,
+.ant-modal-header {
+  border-radius: 15px !important;
+}
+
+.ant-upload.ant-upload-select-picture-card {
+  background-color: rgba(209, 220, 244);
+}
+
+.ant-modal-close-x {
+  height: 30px;
+  color: rgba(43, 120, 212, 1);
+  width: 30px;
+  background-color: rgb(209, 224, 255);
+  border-radius: 50px;
+  margin: 10px 10px;
+  line-height: 30px;
+}
+.empname {
+  color: #002f68;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Montserrat", "sans-serif";
+  line-height: 25px;
+  border: 0 !important;
+  outline: 0 !important;
+  border-bottom: 1px solid rgba(43, 120, 212) !important;
+}
+.ant-form-item {
+  height: 65px;
+}
+.inputtxtarea {
+  color: #002f68;
+  font-weight: 400;
+  font-family: "Montserrat", "sans-serif";
+  font-size: 12px;
+}
+.ant-modal-content {
+  height: 420px;
+  width: 550px;
+}
+.viewdet .editbtn {
+  height: 35px !important;
+  margin-left: 150px;
+  width: 100px !important;
+  margin-top: 35px !important;
+}
+.viewdet .cancelbtn {
+  margin-top: 35px !important;
+}
